@@ -5,9 +5,6 @@ WSPATH=${WSPATH:-'argo'}
 UUID=${UUID:-'de04add9-5c68-8bab-950c-08cd5320df18'}
 WEB_USERNAME=${WEB_USERNAME:-'admin'}
 WEB_PASSWORD=${WEB_PASSWORD:-'password'}
-NEZHA_SERVER=nezha.sslav.eu.org
-NEZHA_PORT=5555
-NEZHA_KEY=gGKNydjQEkJVERNiHD
 
 generate_config() {
   cat > /app/config.json << EOF
